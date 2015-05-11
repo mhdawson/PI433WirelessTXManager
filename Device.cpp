@@ -24,4 +24,7 @@ void Device::sendPulseHighLow(int highDuration, int lowDuration) {
    usleep(highDuration);
    digitalWrite(_txpin, HIGH);
    usleep(lowDuration);
+   // seems like we better end up on LOW or we end up jamming the airwaves
+   // low must allow transmitter to float as needed
+   digitalWrite(_txpin, LOW);
 }
