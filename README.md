@@ -4,6 +4,18 @@ This project receives messages from an mqtt broker and then
 sends them wirelessly on a raspberry pi. It allows additional
 devices to be easily integrated.
 
+## Transmitter
+
+The transmitter I used is a BX-TM01-433:
+
+![picture receiver 1](pictures/transmitter-1.jpg?raw=yes)
+![picture receiver 2](pictures/transmitter-2.jpg?raw=yes)
+
+
+It works well from the basement to the second floor in my house and is 
+available on ebay for about $3 Canadian: [BX-TM01-433](http://www.ebay.ca/itm/Very-Small-ASK-RF-Wireless-Transmitter-board-module-433MHZ-10mA-75KHZ-3kbs-/280909343896?hash=item4167806c98). While this one
+works well for me, any other 433 transmitter should work with this project as well.
+
 
 ## To build:
 TODO
