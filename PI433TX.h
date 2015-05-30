@@ -9,6 +9,10 @@
 #include <time.h>
 #include "Device.h"
 
+#define CA_CERT_FILE     "ca.cert"
+#define CLIENT_CERT_FILE "client.cert"
+#define CLIENT_KEY_FILE  "client.key"
+
 typedef struct DeviceListEntry {
    Device* device;
    DeviceListEntry* next;
@@ -21,7 +25,7 @@ extern "C" {
 
 class PI433TX {
    public:
-      PI433TX(int interrupt, char* mqttBroker);
+      PI433TX(int interrupt, char* mqttBroker, char* certsDir);
       void listenForMessages();
       bool registerDevice(Device* newDevice);
 
@@ -29,9 +33,11 @@ class PI433TX {
       int _txpin;
       char* _mqttBroker;
       DeviceListEntry* _devices; 
+      char* _certsDir;
 
       MQTTClient _myClient;
       MQTTClient_connectOptions _mqttOptions;
+      MQTTClient_SSLOptions _sslOptions;
 
       static int messageArrived(void *context, char* topicName, int topicLen, MQTTClient_message *message);
       static void connectionLost(void *context, char *cause);
