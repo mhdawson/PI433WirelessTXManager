@@ -12,7 +12,7 @@
 #include "DeviceLacross141.h"
 
 // define error codes
-#define MISSING_BROKER  	   -1
+#define MISSING_BROKER             -1
 #define MISSING_CERT_DIR           -2 
 #define INVALID_CERT_DIR           -3 
 #define MISSING_CERT_FILES         -4
