@@ -21,11 +21,25 @@ works well for me, any other 433 transmitter should work with this project as we
 TODO
 
 ## Currently supported devices
-- Generic 2272 based device (work in progress)
-- Lacross 141 temperature sensor (Needs to be refactored into device) 
+
+* Lacross 141 temperator sensor
+* Generic 2272 device 
+
+### Lacross 141
+
+The Lacross 141 is available at Canadian tire and often goes on sale for $10-$15.  In this case it is the display that is supported and you can use this projectto register a display and then send temperator value to the display.  For example you could have a remote site publish a temperator and then have it displayed on a local display.  
+
+[cnd tire link](http://www.canadiantire.ca/en/pdp/la-crosse-weather-station-with-colour-frame-1427129p.html#.VV6MmlKznt8) 
+![Lacross 141](pictures/Lacross-package.jpg?raw=yes)
+
+### Custom
+The following circuit is a custom receiver I built which can receive a command to turn on/off the 12v supply:
+
+![Custom circuit](pictures/433Wireless-switched12v.jpg?raw=yes)
 
 ## Adding a new device
 TODO
+
 
 ## TODOs
 - extract Lacross 141 support out into device class
