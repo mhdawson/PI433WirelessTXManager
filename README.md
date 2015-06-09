@@ -27,9 +27,8 @@ TODO
 
 ### Lacross 141
 
-The Lacross 141 is available at Canadian tire and often goes on sale for $10-$15.  In this case it is the display that is supported and you can use this projectto register a display and then send temperator value to the display.  For example you could have a remote site publish a temperator and then have it displayed on a local display.  
+The Lacross 141 is available at Canadian tire and often goes on sale for $10-$15.  In this case it is the display that is supported and you can use this project to register a display and then send temperator value to the display.  For example you could have a remote site publish a temperator and then have it displayed on a local display.  [cnd tire link](http://www.canadiantire.ca/en/pdp/la-crosse-weather-station-with-colour-frame-1427129p.html#.VV6MmlKznt8) 
 
-[cnd tire link](http://www.canadiantire.ca/en/pdp/la-crosse-weather-station-with-colour-frame-1427129p.html#.VV6MmlKznt8) 
 ![Lacross 141](pictures/Lacross-package.jpg?raw=yes)
 
 ### Custom
