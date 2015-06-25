@@ -9,11 +9,12 @@
 
 class Device2272 : public Device {
    public:
-      Device2272(char* topic);
+      Device2272(char* topic, int pulseWidth);
       int sendMessage(char* message);
 
    private:
       int sendTristate(char tristateValue);
+      int _pulseWidth;
 };
 
 #endif

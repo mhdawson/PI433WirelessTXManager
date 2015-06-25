@@ -74,7 +74,8 @@ int main(int argc, char *argv[]) {
    // Make device part of message as opposed to 141 device
    // allow topics and pin to be configurable
    PI433TX transmitter = PI433TX(PIN, argv[1], argv[2]);
-   transmitter.registerDevice(new Device2272((char*) "home/2272"));
+   transmitter.registerDevice(new Device2272((char*) "home/2272", 350));
+   transmitter.registerDevice(new Device2272((char*) "home/2272/200", 200));
    transmitter.registerDevice(new DeviceLacross141((char*) "house/nexxtech/temp", 0x32));
    transmitter.listenForMessages();
 }
