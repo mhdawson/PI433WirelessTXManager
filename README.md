@@ -31,7 +31,18 @@ The Lacross 141 is available at Canadian tire and often goes on sale for $10-$15
 
 ![Lacross 141](pictures/Lacross-package.jpg?raw=yes)
 
-### Custom
+### Generic 2272 devices
+
+#### 120V switch
+This is support for the switch part of the set.  The best way to get the codes you need to send is to use the PI433WirelessRecvManager project to, watch the appropriate topics and then push the buttons on the remote which will give you the codes that need to be sent to for that button.
+
+Device: - 2272 - parameters(<your topic>, 200)
+Available from eay.
+[ebay link 120v switch](http://www.ebay.ca/itm/381117176383?_trksid=p2060353.m2749.l2649&ssPageName=STRK%3AMEBIDX%3AIT)
+![433Switch](pictures/433switch.jpg)
+
+
+#### Custom
 The following circuit is a custom receiver I built which can receive a command to turn on/off the 12v supply:
 
 ![Custom circuit](pictures/433Wireless-switched12v.jpg?raw=yes)
@@ -41,14 +52,9 @@ TODO
 
 
 ## TODOs
-- extract Lacross 141 support out into device class
-- finish introduction of device registration
-
 - add more info about build dependencies
 - add more comments to the code
 - add more general documenation
-- add 433 wireless transmitter circuit for pi
-- add more specific device info
 - add more info about how to figure out protocol for a new device
 - add info on topics used to receive messages for each device
 - make topics more easily configurable
