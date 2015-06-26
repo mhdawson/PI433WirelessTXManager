@@ -34,7 +34,7 @@ The Lacross 141 is available at Canadian tire and often goes on sale for $10-$15
 ### Generic 2272 devices
 
 #### 120V switch
-This is support for the switch part of the set.  The best way to get the codes you need to send is to use the PI433WirelessRecvManager project to, watch the appropriate topics and then push the buttons on the remote which will give you the codes that need to be sent to for that button.
+This is support for the switch part of the set.  The best way to get the codes you need to send is to use the PI433WirelessRecvManager project to watch the appropriate topics and then push the buttons on the remote which will give you the codes that need to be sent to for that button.
 
 Device: - 2272 - parameters(&lt;your topic&gt;, 200)
 
