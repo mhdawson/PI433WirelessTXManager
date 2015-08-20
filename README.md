@@ -16,6 +16,11 @@ It works well from the basement to the second floor in my house and is
 available on ebay for about $3 Canadian: [BX-TM01-433](http://www.ebay.ca/itm/Very-Small-ASK-RF-Wireless-Transmitter-board-module-433MHZ-10mA-75KHZ-3kbs-/280909343896?hash=item4167806c98). While this one
 works well for me, any other 433 transmitter should work with this project as well.
 
+## Circuit
+
+The is the circuit I used to wire up the transmitter to the pi:
+
+![picture transmitter circuit](pictures/transmitter-circuit.jpg?raw=yes)
 
 ## To build:
 TODO
