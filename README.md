@@ -23,7 +23,34 @@ The is the circuit I used to wire up the transmitter to the pi:
 ![picture transmitter circuit](pictures/transmitter-circuit.jpg?raw=yes)
 
 ## To build:
-TODO
+
+### Install wiringPi
+
+<PRE>
+git clone git://git.drogon.net/wiringPi
+cd wiringPi
+./build
+cd ..
+</PRE>
+
+### Install paho
+
+<PRE>
+apt-get install libssl-dev
+https://github.com/eclipse/paho.mqtt.c.git
+cd paho.mqtt.c.git
+export MQTTCLIENT_DIR=./src
+make install
+cd ..
+</PRE>
+
+### Build PI433WirelessTXManager
+
+<PRE>
+git clone https://github.com/mhdawson/PI433WirelessTXManager.git
+cd PI433WirelessTXManager
+make
+</PRE>
 
 ## Currently supported devices
 
