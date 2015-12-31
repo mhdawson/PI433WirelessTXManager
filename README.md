@@ -22,6 +22,9 @@ The is the circuit I used to wire up the transmitter to the pi:
 
 ![picture transmitter circuit](pictures/transmitter-circuit.jpg?raw=yes)
 
+PCB layout for board that includes this circuit and those for other
+related projects: [PI433-RX-TX-Temp-board](https://github.com/mhdawson/PI433-RX-TX-Temp-board)
+
 ## To build:
 
 ### Install wiringPi
